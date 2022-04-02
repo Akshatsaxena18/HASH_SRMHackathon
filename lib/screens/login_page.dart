@@ -4,10 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hash_srm/model/User.dart';
 import 'package:hash_srm/model/databaseStorage.dart';
-import 'package:hash_srm/model/sms.dart';
 import 'package:hash_srm/model/storageModels.dart';
 import 'package:hash_srm/screens/home.dart';
-import 'package:hash_srm/screens/temp.dart';
 import 'package:hash_srm/widgets/common_styles.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -69,7 +67,7 @@ class _LoginPageState extends State<LoginPage> {
         title: Center(child: Text("SIH HASHED")),
         leading: GestureDetector(
           onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context)=>TempPage()));
+            // Navigator.push(context, MaterialPageRoute(builder: (context)=>TempPage()));
           },
           child: Container(
             child: Image.asset(
