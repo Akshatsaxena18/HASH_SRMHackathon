@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488686909629",
+    "project_id": "sih-hashd",
+    "storage_bucket": "sih-hashd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488686909629:android:884b36d3808fc377955fd4",
+        "android_client_info": {
+          "package_name": "com.example.hashd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488686909629-laflrur1621fsr4slmj694d5g60op8je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnBErzoeY7yy2zmFkQqxTdmVUfm3Yyvqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488686909629-laflrur1621fsr4slmj694d5g60op8je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
