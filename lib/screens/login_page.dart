@@ -64,14 +64,14 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xff587308),
-        title: Center(child: Text("SIH HASHED")),
+        title: Center(child: Text("HASH")),
         leading: GestureDetector(
           onTap: () {
             // Navigator.push(context, MaterialPageRoute(builder: (context)=>TempPage()));
           },
           child: Container(
             child: Image.asset(
-                "assets/images/sihlogo.png",
+                "assets/images/logo.png",
               width: 100,
               height: 100,
             )
@@ -139,7 +139,7 @@ class _LoginPageState extends State<LoginPage> {
                           child: Column(
                             children: [
                               // Text(
-                              //   "SIH-HASHD",
+                              //   "HASH",
                               //   style: TextStyle(
                               //     color: Colors.white
                               //   ),
