@@ -1,0 +1,75 @@
+{
+    "details":{
+        "123456781":{
+            "desc":"potato potato",
+            "rid":"123456781",
+            "date":"1-2-2022",
+            "crop":"potato",
+            "noofcases":3,
+            "location":"bangalore",
+            "soil":"red soil",
+            "noofimages":6
+        },
+        "123456782":{
+            "desc":"potato potato",
+            "rid":"123456782",
+            "date":"1-2-2022",
+            "crop":"potato",
+            "noofcases":3,
+            "location":"bangalore",
+            "soil":"red soil",
+            "noofimages":6
+        },
+        "123456783":{
+            "desc":"potato potato",
+            "rid":"123456783",
+            "date":"1-2-2022",
+            "crop":"potato",
+            "noofcases":3,
+            "location":"bangalore",
+            "soil":"red soil",
+            "noofimages":6
+        },
+        "123456784":{
+            "desc":"potato potato",
+            "rid":"123456784",
+            "date":"1-2-2022",
+            "crop":"potato",
+            "noofcases":3,
+            "location":"bangalore",
+            "soil":"red soil",
+            "noofimages":6
+        },
+        "123456785":{
+            "rid":"123456785",
+            "date":"1-2-2022",
+            "crop":"potato",
+            "noofcases":3,
+            "location":"bangalore",
+            "soil":"red soil",
+            "noofimages":6,
+            "desc":"potato potato"
+        },
+        "123456786":{
+            "desc":"potato potato",
+            "rid":"123456786",
+            "date":"1-2-2022",
+            "crop":"potato",
+            "noofcases":3,
+            "location":"bangalore",
+            "soil":"red soil",
+            "noofimages":6
+        },
+        "123456787":{
+            "desc":"potato potato",
+            "rid":"123456787",
+            "date":"1-2-2022",
+            "crop":"potato",
+            "noofcases":3,
+            "location":"bangalore",
+            "soil":"red soil",
+            "noofimages":6
+        }
+
+    }
+}
