@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
+import 'package:hash_srm/model/User.dart';
+import 'package:hash_srm/model/databaseStorage.dart';
+import 'package:hash_srm/model/getDatabase.dart';
+import 'package:hash_srm/model/getSoilData.dart';
+import 'package:hash_srm/model/weather_data.dart';
 import 'package:hash_srm/screens/home.dart';
 import 'package:hash_srm/screens/login_page.dart';
+import 'package:hash_srm/widgets/weatherInfoView.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:learning_translate/learning_translate.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -11,8 +17,8 @@ Future<void> main()async {
   final prefs = await SharedPreferences.getInstance();
   var a = prefs.getBool('uidset');
   MyApp.uid = a!=null?a:false;
-  // MyUser.UID = (a!=null&&a!=false)?prefs.getString('UID')!:'';
-  // await WeatherData.getWeather();
+  MyUser.UID = (a!=null&&a!=false)?prefs.getString('UID')!:'';
+  await WeatherData.getWeather();
   await TranslationModelManager.download('en');
   await TranslationModelManager.download('hi');
   await TranslationModelManager.download('te');
