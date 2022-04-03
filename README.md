@@ -1,16 +1,16 @@
 # hash_srm
 
-A new Flutter project.
+Mobile App is in master branch.
 
-## Getting Started
+Web app is in website branch.
 
-This project is a starting point for a Flutter application.
+-------------------------------------------------------
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Our project is to help farmers detect the crop disease using a mobile appln.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Farmers take pic and get suggestions to overcome the disease.
+
+He can opt for further assistance with expert.
+
+Expert has website to view the report of disease and give solution.
